@@ -7,30 +7,11 @@ Author: Roman Enzmann ((c))
 # Import libraries
 # Standard
 import os
-import time
-import pandas as pd
-from pandas.tseries import converter
 import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-import seaborn
 
 # Random number generators
 import random
 from random import randrange
-
-# Stats
-import statsmodels
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-
-# AI
-import sklearn
-from sklearn.ensemble import RandomForestClassifier
-import sklearn.neural_network as sklrn_nn
-from sklearn.model_selection import GridSearchCV
-from sklearn import datasets
-from sklearn.decomposition import PCA
 
 
 # ------------------------------------------------------------------------------------------
