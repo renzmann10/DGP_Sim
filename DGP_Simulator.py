@@ -136,7 +136,7 @@ def dgp_generator(classification, class_prob, num_nonlinear, p, highest_pd, seed
         min_prob = min(class_prob)
         q_yclassprob = np.quantile(y_obs,min_prob)
         for i in range(len(y_obs)):
-            if abs(y_obs[i]) < q_yclassprob:
+            if abs(y_obs[i]) >= q_yclassprob:
                 y_obs[i] = 1
             else:
                 y_obs[i] = 0
