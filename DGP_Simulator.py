@@ -1,9 +1,7 @@
 '''
-AUXILIARY FUNCTIONS AND DEFINITIONS
-    contians auxiliary functions and definitions used in 'main.py' for Master Thesis:
-        Possibilities and Limitations of Statistical Inference for AI Algorithms
+Data Generating Process Simulator
 
-Author: Roman Enzmann
+Author: Roman Enzmann ((c))
 '''
 
 # Import libraries
